@@ -76,7 +76,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 function component() {
   var element = document.createElement('div');
 
-
+  console.log("iyyo");
+   
   //Lodash now imported from script
   element.innerHTML = __WEBPACK_IMPORTED_MODULE_0_lodash___default.a.join(['Hello', 'webpack'], ' ');
 

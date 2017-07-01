@@ -3,7 +3,8 @@ import _ from 'lodash';
 function component() {
   var element = document.createElement('div');
 
-
+  console.log("iyyo");
+   
   //Lodash now imported from script
   element.innerHTML = _.join(['Hello', 'webpack'], ' ');
 
