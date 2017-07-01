@@ -1,5 +1,13 @@
 import _ from 'lodash';
 
+// must have css loader
+import 'jif-dashboard/dashboard.css'
+
+import 'jif-dashboard/dashboard-core'
+import 'jif-dashboard/dashboard-util'
+import 'jif-dashboard/dashboard-template'
+
+
 function component() {
   var element = document.createElement('div');
 
